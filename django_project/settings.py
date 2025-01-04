@@ -15,7 +15,7 @@ SECRET_KEY = 'r=c6#7ev!+)5oh$ru80iiz83onb#jw^e#&w)zit5m1t)lzme38'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+#ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -121,5 +121,5 @@ STATICSTORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
-#ALLOWED_HOSTS=['localhost','web-production-17d9.up.railway.app']
+ALLOWED_HOSTS=['localhost','web-production-17d9.up.railway.app','*']
 
